@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  width: 100vw;
+  height: 260vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header a {
+  color: #1db954;
+  text-decoration: underline;
+}
+
+header section {
+  width: 450px;
+  height: 260vh;
+  background-color: white;
+}
+
+header section .logo {
+  width: 450px;
+  height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header section .logo img {
+  width: 150px;
+  margin: 30px auto;
+}
+
+header section .logo h1 {
+  font-size: 31px;
+}
+
+header section button {
+  width: 220px;
+  height: 50px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 5px 115px;
+}
+
+header section button:hover {
+  background-color: #488feb;
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+header section p {
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+header section .hr-div {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header section .hr-div .horizontal-r {
+  width: 160px;
+  height: 1px;
+  background-color: #b1b1b1;
+}
+
+header section .hr-div p {
+  font-size: 18px;
+  margin: 0 20px 3px;
+}
+
+header section h2 {
+  font-size: 20px;
+  margin: 0 87px;
+}
+
+header section .input-div {
+  width: 100%;
+  height: 90px;
+  margin-top: 15px;
+}
+
+header section .input-div p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+header section .input-div input {
+  width: 100%;
+  height: 55px;
+  text-indent: 15px;
+  border-radius: 5px;
+  border: 1px solid #afa6a6;
+}
+
+header section .input-div input::-webkit-input-placeholder {
+  font-size: 18px;
+}
+
+header section .input-div input:-ms-input-placeholder {
+  font-size: 18px;
+}
+
+header section .input-div input::-ms-input-placeholder {
+  font-size: 18px;
+}
+
+header section .input-div input::placeholder {
+  font-size: 18px;
+}
+
+header section .input-div input:hover {
+  border: 1.5px solid black;
+}
+
+header section h3 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+header section h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+header section .input-day {
+  width: 100%;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header section .input-day .fsz-15 {
+  font-size: 16px;
+}
+
+header section .input-day .month {
+  width: 190px;
+  height: 100px;
+}
+
+header section .input-day .month p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+header section .input-day .month select {
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #afa6a6;
+}
+
+header section .input-day .month select:hover {
+  border: 1.5px solid black;
+}
+
+header section .input-day .day {
+  width: 90px;
+  height: 100px;
+}
+
+header section .input-day .day p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+header section .input-day .day input {
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #afa6a6;
+}
+
+header section .input-day .day input::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header section .input-day .day input:-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header section .input-day .day input::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header section .input-day .day input::placeholder {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header section .input-day .day input:hover {
+  border: 1.5px solid black;
+}
+
+header section .input-day .year {
+  width: 110px;
+  height: 100px;
+}
+
+header section .input-day .year p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+header section .input-day .year input {
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #afa6a6;
+}
+
+header section .input-day .year input::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header section .input-day .year input:-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header section .input-day .year input::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header section .input-day .year input::placeholder {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header section .input-day .year input:hover {
+  border: 1.5px solid black;
+}
+
+header section .input-radio {
+  width: 100%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5px;
+}
+
+header section .input-radio input {
+  margin-right: 15px;
+}
+
+header section .input-radio input:hover {
+  cursor: pointer;
+}
+
+header section .input-radio label {
+  margin-right: 25px;
+  font-size: 18px;
+}
+
+header section .input-checkbox {
+  width: 100%;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 0;
+}
+
+header section .input-checkbox p {
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+header section .robot {
+  width: 100%;
+  height: 90px;
+}
+
+header section .robot .robot__item {
+  width: 65%;
+  height: 80px;
+  background-color: #dfd3d3;
+  border-radius: 5px;
+}
+
+header section .last-div {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+header section .last-div p {
+  font-size: 14px;
+}
+
+header section .last-div .b1 {
+  width: 150px;
+  height: 55px;
+  color: black;
+  background-color: #1db954;
+}
+
+header section .last-div .b1:hover {
+  background-color: #36bd65;
+}
+
+header section .last-div h6 {
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: normal;
+}
+/*# sourceMappingURL=sign-up.css.map */
